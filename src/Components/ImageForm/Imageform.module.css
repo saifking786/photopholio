@@ -1,0 +1,78 @@
+.formContainer {
+    margin: 20px auto;
+    width: 40vw;
+    height: 30vh;
+    display: flex;
+    margin-top: -90px;
+    margin-left: 30vw;
+    background-color: lightgrey;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-color: transparent;
+    border-radius: 20px;
+}
+
+.formContainer2 {
+    margin-left: 90px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; /* Arrange items with space between them */
+}
+
+.inputField {
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 29px;
+    margin-right: -45px;
+    height: 40px;
+    width: 80%; /* Adjust width to occupy 80% of the container */
+    max-width: 400px; /* Set maximum width */
+    border-radius: 20px;
+    border-color: transparent;
+    padding-left: 20px;
+    margin-bottom: 20px; /* Reduce the bottom margin */
+}
+
+h2 {
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #333;
+    margin-top: 20px; /* Reduce the top margin */
+    margin-bottom: 20px; /* Reduce the bottom margin */
+    text-align: center;
+}
+
+
+.clearButton {
+    background-color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    height: 35px;
+    width: 80px;
+    margin-top: -35px;
+    margin-right: -290px;
+    border-radius: 5px;
+    border-color: transparent;
+    color: white;
+    margin-bottom: 0; /* Remove the bottom margin */
+}
+.submitButton{
+    background-color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    height: 35px;
+    width: 80px;
+    margin-left: 28px;
+    border-radius: 5px;
+    border-color: transparent;
+    color: white;
+    margin-bottom: 0; /* Remove the bottom margin */
+}
+
+.clearButton {
+    background-color: red;
+}
+
+.clearButton {
+    margin-left: 10px; /* Add some space between buttons */
+}

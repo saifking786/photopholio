@@ -1,0 +1,170 @@
+/* Imagelist.module.css */
+
+.albumContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.but {
+    margin-bottom: 30px;
+    height: 30px;
+    width: 90px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(9, 9, 233); /* Text color */
+    background-color: lightblue; /* Background color */
+    border: 3px solid rgb(9, 9, 233); /* Border color to create margin effect */
+}
+
+.back {
+    width: 40px;
+    height: 50px;
+}
+.backBig {
+    margin-top: -95px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border: none; /* Remove the border */
+    transition: transform 0.3s ease; /* Add transition for smooth effect */
+}
+.backBig:hover {
+    cursor: pointer; /* Change cursor on hover */
+    filter: brightness(0); /* Reduce brightness on hover */
+    transform: scale(1.1); /* Increase scale on hover */
+}
+.albumWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.albumBox {
+    width: 200px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.albumImage {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.albumTitle {
+    margin-top: 10px;
+}
+
+.albumBox {
+    position: relative;
+    overflow: hidden;
+}
+
+.albumBox:hover .edit,
+.albumBox:hover .delete {
+    opacity: 1;
+}
+
+.buttons {
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Add space between the buttons */
+}
+
+.delete {
+    top: 10px;
+    /* Adjust the positioning for spacing */
+    right: 10px;
+    /* Add spacing between the buttons */
+    margin-left: 30px;
+    opacity: 0; /* Initially hide the buttons */
+    transition: opacity 0.3s ease-in-out; /* Add a smooth transition effect */
+}
+
+.edit {
+    top: 10px;
+    /* Adjust the positioning for spacing */
+    right: 10px;
+    /* Add spacing between the buttons */
+    margin-left: 1px;
+    opacity: 0; /* Initially hide the buttons */
+    transition: opacity 0.3s ease-in-out; /* Add a smooth transition effect */
+}
+
+.delete img {
+    height: 40px; /* Adjust the size of the icons */
+    cursor: pointer;
+}
+
+.edit img {
+    height: 40px; /* Adjust the size of the icons */
+    cursor: pointer;
+}
+
+/* Change the color of the edit button to blue */
+.edit {
+    color: blue;
+}
+
+/* Change the color of the delete button to red */
+.delete {
+    color: red;
+}
+
+.searchButton {
+    height: 30px;
+    width: 90px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    background-color: #007bff; /* Blue color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add transition for smooth effect */
+}
+
+.searchButton:hover {
+    background-color: #0056b3; /* Darker shade of blue on hover */
+}
+
+.searchForm {
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    margin-left: 77%;
+}
+
+.searchInput {
+    width: 300px; /* Adjust width as needed */
+    height: 30px; /* Increase height */
+    font-size: 16px; /* Increase font size */
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px; /* Add padding for better spacing */
+    border-radius: 10px;
+    border: 2px solid darkblue; /* Add border */
+}
+
+.searchInput::placeholder {
+    color: black; /* Placeholder color */
+}
+
+.searchButton {
+    height: 40px;
+    width: 100px; /* Adjust width as needed */
+    margin-left: 10px; /* Add margin between input and button */
+    font-size: 16px; /* Increase font size */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.searchInput:hover {
+    background-color: #9fc3ea;
+}
+.buttonSpacer {
+    width: -40px; /* Adjust the width as needed */
+  }
+  

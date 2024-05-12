@@ -1,0 +1,63 @@
+.formContainer {
+    margin: 20px auto; /* Centers the container horizontally */
+    width: 40vw;
+    height: 25vh;
+    display: flex;
+    background-color: lightgrey;
+    align-items: center;
+    justify-content: center; /* Centers the content vertically */
+    flex-direction: column;
+    border-color: transparent; /* Black border with 2px width */
+    border-radius: 20px; /* 20px border radius */
+}
+h2{
+    font-size: 24px; /* Adjust the font size as needed */
+    font-family: 'Courier New', Courier, monospace;
+    color: #333; /* Set the color of the text */
+    margin-top: 40px; /* Add some bottom margin for spacing */
+    text-align: center; 
+}
+.formContainer2 {
+    margin: 10px auto; 
+    display: flex;
+    width: 40vw;
+    margin-bottom: 60px;
+    background-color: lightgrey;
+    align-items: center;
+    justify-content: center; /* Centers the content vertically */
+    flex-direction: row;
+}
+.form{
+    height:30px;
+}
+.inputField {
+    font-family: 'Courier New', Courier, monospace;
+    height: 40px;
+    width: 20vw;
+    border-radius: 20px;
+    border-color: transparent;
+     /* Set border color to transparent */
+     padding-left: 20px;
+}
+.submitButton{
+    background-color:blue;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 35px;
+    width: 80px;
+    border-radius: 5px;
+    border-color: transparent;
+    color:white
+}
+.clearButton{
+    background-color:red;
+    font-family: 'Courier New', Courier, monospace;
+    margin-right: 20px;
+    margin-top: 15px;
+    height: 35px;
+    width: 80px;
+    border-radius: 5px;
+    border-color: transparent;
+    color:white
+}

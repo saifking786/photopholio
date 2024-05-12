@@ -1,0 +1,52 @@
+/* Albumlist.module.css */
+
+.albumContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.but {
+    margin-bottom: 30px;
+    margin-top: 10px;
+    height: 30px;
+    width: 90px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(9, 9, 233); /* Text color */
+    background-color: lightblue; /* Background color */
+    border: 3px solid rgb(9, 9, 233); /* Border color to create margin effect */
+}
+.albumWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.albumBox {
+    width: 200px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.albumImage {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.albumTitle {
+    margin-top: 10px;
+}
+.nodisplay {
+    text-align: center; /* Center the text horizontally */
+  }
+  
+  /* Additional styles for h1 tag */
+  element-style {
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .h1style{
+    font-family: 'Courier New', Courier, monospace;
+  }
